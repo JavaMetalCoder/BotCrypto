@@ -23,7 +23,7 @@ logging.basicConfig(
     level=logging.INFO,
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler('bot.log', encoding='utf-8')
+        logging.FileHandler('/app/logs/bot.log', encoding='utf-8')
     ]
 )
 logger = logging.getLogger(__name__)

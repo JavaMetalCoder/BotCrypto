@@ -1,0 +1,100 @@
+2025-06-16 11:34:59,461 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:35:28 UTC)" executed successfully
+2025-06-16 11:35:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:35:58 UTC)" (scheduled at 2025-06-16 11:35:28.682347+00:00)
+2025-06-16 11:35:29,507 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:35:58 UTC)" executed successfully
+2025-06-16 11:35:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:36:28 UTC)" (scheduled at 2025-06-16 11:35:58.682347+00:00)
+2025-06-16 11:36:00,182 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:36:28 UTC)" executed successfully
+2025-06-16 11:36:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:36:58 UTC)" (scheduled at 2025-06-16 11:36:28.682347+00:00)
+2025-06-16 11:36:30,594 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:36:58 UTC)" executed successfully
+2025-06-16 11:36:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:37:28 UTC)" (scheduled at 2025-06-16 11:36:58.682347+00:00)
+2025-06-16 11:36:59,925 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:37:28 UTC)" executed successfully
+2025-06-16 11:37:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:37:58 UTC)" (scheduled at 2025-06-16 11:37:28.682347+00:00)
+2025-06-16 11:37:29,166 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:37:58 UTC)" executed successfully
+2025-06-16 11:37:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:38:28 UTC)" (scheduled at 2025-06-16 11:37:58.682347+00:00)
+2025-06-16 11:37:59,070 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:38:28 UTC)" executed successfully
+2025-06-16 11:38:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:38:58 UTC)" (scheduled at 2025-06-16 11:38:28.682347+00:00)
+2025-06-16 11:38:29,183 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:38:58 UTC)" executed successfully
+2025-06-16 11:39:00,019 WARNING: Run time of job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:39:28 UTC)" was missed by 0:00:01.337262
+2025-06-16 11:39:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:39:58 UTC)" (scheduled at 2025-06-16 11:39:28.682347+00:00)
+2025-06-16 11:39:29,356 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:39:58 UTC)" executed successfully
+2025-06-16 11:39:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:40:28 UTC)" (scheduled at 2025-06-16 11:39:58.682347+00:00)
+2025-06-16 11:39:59,158 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:40:28 UTC)" executed successfully
+2025-06-16 11:40:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:40:58 UTC)" (scheduled at 2025-06-16 11:40:28.682347+00:00)
+2025-06-16 11:40:29,440 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:40:58 UTC)" executed successfully
+2025-06-16 11:40:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:41:28 UTC)" (scheduled at 2025-06-16 11:40:58.682347+00:00)
+2025-06-16 11:41:00,073 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:41:28 UTC)" executed successfully
+2025-06-16 11:41:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:41:58 UTC)" (scheduled at 2025-06-16 11:41:28.682347+00:00)
+2025-06-16 11:41:29,592 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:41:58 UTC)" executed successfully
+2025-06-16 11:41:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:42:28 UTC)" (scheduled at 2025-06-16 11:41:58.682347+00:00)
+2025-06-16 11:41:59,477 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:42:28 UTC)" executed successfully
+2025-06-16 11:42:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:42:58 UTC)" (scheduled at 2025-06-16 11:42:28.682347+00:00)
+2025-06-16 11:42:29,585 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:42:58 UTC)" executed successfully
+2025-06-16 11:42:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:43:28 UTC)" (scheduled at 2025-06-16 11:42:58.682347+00:00)
+2025-06-16 11:43:01,869 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:43:28 UTC)" executed successfully
+2025-06-16 11:43:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:43:58 UTC)" (scheduled at 2025-06-16 11:43:28.682347+00:00)
+2025-06-16 11:43:29,974 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:43:58 UTC)" executed successfully
+2025-06-16 11:43:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:44:28 UTC)" (scheduled at 2025-06-16 11:43:58.682347+00:00)
+2025-06-16 11:43:59,643 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:44:28 UTC)" executed successfully
+2025-06-16 11:44:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:44:58 UTC)" (scheduled at 2025-06-16 11:44:28.682347+00:00)
+2025-06-16 11:44:29,627 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:44:58 UTC)" executed successfully
+2025-06-16 11:44:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:45:28 UTC)" (scheduled at 2025-06-16 11:44:58.682347+00:00)
+2025-06-16 11:45:00,307 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:45:28 UTC)" executed successfully
+2025-06-16 11:45:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:45:58 UTC)" (scheduled at 2025-06-16 11:45:28.682347+00:00)
+2025-06-16 11:45:29,195 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:45:58 UTC)" executed successfully
+2025-06-16 11:45:58,683 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:46:28 UTC)" (scheduled at 2025-06-16 11:45:58.682347+00:00)
+2025-06-16 11:45:59,060 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:46:28 UTC)" executed successfully
+2025-06-16 11:46:28,683 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:46:58 UTC)" (scheduled at 2025-06-16 11:46:28.682347+00:00)
+2025-06-16 11:46:29,889 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:46:58 UTC)" executed successfully
+2025-06-16 11:46:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:47:28 UTC)" (scheduled at 2025-06-16 11:46:58.682347+00:00)
+2025-06-16 11:46:59,863 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:47:28 UTC)" executed successfully
+2025-06-16 11:47:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:47:58 UTC)" (scheduled at 2025-06-16 11:47:28.682347+00:00)
+2025-06-16 11:47:29,679 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:47:58 UTC)" executed successfully
+2025-06-16 11:47:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:48:28 UTC)" (scheduled at 2025-06-16 11:47:58.682347+00:00)
+2025-06-16 11:47:59,813 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:48:28 UTC)" executed successfully
+2025-06-16 11:48:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:48:58 UTC)" (scheduled at 2025-06-16 11:48:28.682347+00:00)
+2025-06-16 11:48:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:48:58 UTC)" executed successfully
+2025-06-16 11:48:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:49:28 UTC)" (scheduled at 2025-06-16 11:48:58.682347+00:00)
+2025-06-16 11:48:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:49:28 UTC)" executed successfully
+2025-06-16 11:49:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:49:58 UTC)" (scheduled at 2025-06-16 11:49:28.682347+00:00)
+2025-06-16 11:49:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:49:58 UTC)" executed successfully
+2025-06-16 11:49:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:50:28 UTC)" (scheduled at 2025-06-16 11:49:58.682347+00:00)
+2025-06-16 11:49:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:50:28 UTC)" executed successfully
+2025-06-16 11:50:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:50:58 UTC)" (scheduled at 2025-06-16 11:50:28.682347+00:00)
+2025-06-16 11:50:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:50:58 UTC)" executed successfully
+2025-06-16 11:50:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:51:28 UTC)" (scheduled at 2025-06-16 11:50:58.682347+00:00)
+2025-06-16 11:50:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:51:28 UTC)" executed successfully
+2025-06-16 11:51:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:51:58 UTC)" (scheduled at 2025-06-16 11:51:28.682347+00:00)
+2025-06-16 11:51:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:51:58 UTC)" executed successfully
+2025-06-16 11:51:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:52:28 UTC)" (scheduled at 2025-06-16 11:51:58.682347+00:00)
+2025-06-16 11:51:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:52:28 UTC)" executed successfully
+2025-06-16 11:52:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:52:58 UTC)" (scheduled at 2025-06-16 11:52:28.682347+00:00)
+2025-06-16 11:52:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:52:58 UTC)" executed successfully
+2025-06-16 11:52:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:53:28 UTC)" (scheduled at 2025-06-16 11:52:58.682347+00:00)
+2025-06-16 11:52:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:53:28 UTC)" executed successfully
+2025-06-16 11:53:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:53:58 UTC)" (scheduled at 2025-06-16 11:53:28.682347+00:00)
+2025-06-16 11:53:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:53:58 UTC)" executed successfully
+2025-06-16 11:53:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:54:28 UTC)" (scheduled at 2025-06-16 11:53:58.682347+00:00)
+2025-06-16 11:53:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:54:28 UTC)" executed successfully
+2025-06-16 11:54:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:54:58 UTC)" (scheduled at 2025-06-16 11:54:28.682347+00:00)
+2025-06-16 11:54:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:54:58 UTC)" executed successfully
+2025-06-16 11:54:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:55:28 UTC)" (scheduled at 2025-06-16 11:54:58.682347+00:00)
+2025-06-16 11:54:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:55:28 UTC)" executed successfully
+2025-06-16 11:55:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:55:58 UTC)" (scheduled at 2025-06-16 11:55:28.682347+00:00)
+2025-06-16 11:55:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:55:58 UTC)" executed successfully
+2025-06-16 11:55:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:56:28 UTC)" (scheduled at 2025-06-16 11:55:58.682347+00:00)
+2025-06-16 11:55:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:56:28 UTC)" executed successfully
+2025-06-16 11:56:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:56:58 UTC)" (scheduled at 2025-06-16 11:56:28.682347+00:00)
+2025-06-16 11:56:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:56:58 UTC)" executed successfully
+2025-06-16 11:56:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:57:28 UTC)" (scheduled at 2025-06-16 11:56:58.682347+00:00)
+2025-06-16 11:56:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:57:28 UTC)" executed successfully
+2025-06-16 11:57:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:57:58 UTC)" (scheduled at 2025-06-16 11:57:28.682347+00:00)
+2025-06-16 11:57:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:57:58 UTC)" executed successfully
+2025-06-16 11:57:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:58:28 UTC)" (scheduled at 2025-06-16 11:57:58.682347+00:00)
+2025-06-16 11:57:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:58:28 UTC)" executed successfully
+2025-06-16 11:58:28,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:58:58 UTC)" (scheduled at 2025-06-16 11:58:28.682347+00:00)
+2025-06-16 11:58:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:58:58 UTC)" executed successfully
+2025-06-16 11:58:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:59:28 UTC)" (scheduled at 2025-06-16 11:58:58.682347+00:00)
+2025-06-16 11:58:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:59:28 UTC)" executed successfully
+2025-06-16 11:59:28,683 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:59:58 UTC)" (scheduled at 2025-06-16 11:59:28.682347+00:00)
+2025-06-16 11:59:28,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 11:59:58 UTC)" executed successfully
+2025-06-16 11:59:58,682 INFO: Running job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 12:00:28 UTC)" (scheduled at 2025-06-16 11:59:58.682347+00:00)
+2025-06-16 11:59:58,683 INFO: Job "check_prices (trigger: interval[0:00:30], next run at: 2025-06-16 12:00:28 UTC)" executed successfully

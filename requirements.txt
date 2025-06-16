@@ -3,30 +3,21 @@ python-telegram-bot==13.15
 requests==2.31.0
 python-dotenv==1.0.0
 
-# Database
-# SQLite è built-in in Python
+# Scheduling (compatibile con python-telegram-bot)
+APScheduler==3.6.3
 
-# Scheduling
-APScheduler==3.10.4
-
-# Utilities
+# Utilities (versioni compatibili con python-telegram-bot 13.15)
 pytz==2023.3
 certifi==2023.7.22
 charset-normalizer==3.3.2
 idna==3.4
 urllib3==2.0.7
 
-# Performance & Caching
-cachetools==5.3.2
-
-# Logging & Monitoring (opzionale)
-structlog==23.2.0
-
-# Development & Testing (solo per dev)
-# pytest==7.4.3
-# pytest-asyncio==0.21.1
-# black==23.11.0
-# flake8==6.1.0
+# Performance & Caching (versione compatibile)
+cachetools==4.2.2
 
 # Security
 cryptography==41.0.7
+
+# Logging (opzionale - rimuovibile se da problemi)
+# structlog==23.2.0

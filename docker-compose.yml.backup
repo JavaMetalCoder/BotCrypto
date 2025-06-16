@@ -57,6 +57,56 @@ services:
       - "environment=production"
       - "maintainer=metalcoder"
 
+  # Servizio monitoring opzionale
+  monitoring:
+    image: prom/prometheus:latest
+    container_name: crypto-bot-monitoring
+    restart: unless-stopped
+    profiles:
+      - monitoring
+    
+    ports:
+      - "9090:9090"
+    
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    
+    networks:
+      - bot-network
+    
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+
+  # Backup automatico database
+  backup:
+    image: alpine:latest
+    container_name: crypto-bot-backup
+    restart: unless-stopped
+    profiles:
+      - backup
+    
+    volumes:
+      - bot_data:/data:ro
+      - bot_backups:/backups
+    
+    environment:
+      - BACKUP_RETENTION=7
+    
+    command: >
+      sh -c "
+        while true; do
+          echo 'Creating backup...'
+          cp /data/subs.db /backups/subs_$(date +%Y%m%d_%H%M%S).db
+          find /backups -name 'subs_*.db' -mtime +$BACKUP_RETENTION -delete
+          echo 'Backup completed'
+          sleep 86400
+        done
+      "
+
 volumes:
   bot_data:
     driver: local
@@ -71,6 +121,16 @@ volumes:
       type: none  
       o: bind
       device: ./logs
+  
+  bot_backups:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./backups
+  
+  prometheus_data:
+    driver: local
 
 networks:
   bot-network:
