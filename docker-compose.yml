@@ -15,28 +15,9 @@ services:
       - DB_PATH=/app/data/subs.db
       - LOG_LEVEL=${LOG_LEVEL:-INFO}
     
-    volumes:
-      # Persisti database e logs
-      - bot_data:/app/data
-      - bot_logs:/app/logs
-      # Mount config se necessario
-      - ./config:/app/config:ro
-    
-    # Limiti risorse
-    deploy:
-      resources:
-        limits:
-          memory: 512M
-          cpus: '0.5'
-        reservations:
-          memory: 256M
-          cpus: '0.25'
-    
-    # Network personalizzato
     networks:
       - bot-network
     
-    # Health check
     healthcheck:
       test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
       interval: 30s
@@ -44,37 +25,17 @@ services:
       retries: 3
       start_period: 30s
     
-    # Logging configurato
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
     
-    # Labels per organizzazione
     labels:
       - "project=crypto-alert-bot"
       - "environment=production"
       - "maintainer=metalcoder"
 
-volumes:
-  bot_data:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ./data
-  
-  bot_logs:
-    driver: local
-    driver_opts:
-      type: none  
-      o: bind
-      device: ./logs
-
 networks:
   bot-network:
     driver: bridge
-    ipam:
-      config:
-        - subnet: 172.20.0.0/16

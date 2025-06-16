@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+import os
 from threading import Lock
 from contextlib import contextmanager
 from os import getenv
@@ -33,6 +34,44 @@ def get_db():
 
 def init_db():
     """Inizializza database con schema completo"""
+    # Rimuovi database esistente se readonly
+    if os.path.exists(DB_PATH):
+        try:
+            # Test se è scrivibile
+            with sqlite3.connect(DB_PATH, timeout=1.0) as test_conn:
+                test_conn.execute("CREATE TABLE IF NOT EXISTS test_write (id INTEGER)")
+                test_conn.rollback()
+        except (sqlite3.OperationalError, sqlite3.DatabaseError) as e:
+            if "readonly" in str(e).lower() or "permission" in str(e).lower():
+                logger.warning(f"Database {DB_PATH} is readonly, removing and recreating...")
+                try:
+                    os.remove(DB_PATH)
+                except OSError:
+                    pass
+    
+    # Crea directory se non esiste
+    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    
+def init_db():
+    """Inizializza database con schema completo"""
+    # Rimuovi database esistente se readonly
+    if os.path.exists(DB_PATH):
+        try:
+            # Test se è scrivibile
+            with sqlite3.connect(DB_PATH, timeout=1.0) as test_conn:
+                test_conn.execute("CREATE TABLE IF NOT EXISTS test_write (id INTEGER)")
+                test_conn.rollback()
+        except (sqlite3.OperationalError, sqlite3.DatabaseError) as e:
+            if "readonly" in str(e).lower() or "permission" in str(e).lower():
+                logger.warning(f"Database {DB_PATH} is readonly, removing and recreating...")
+                try:
+                    os.remove(DB_PATH)
+                except OSError:
+                    pass
+    
+    # Crea directory se non esiste
+    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    
     with _lock, get_db() as conn:
         # Tabella sottoscrizioni
         conn.execute("""
@@ -44,6 +83,13 @@ def init_db():
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             UNIQUE(chat_id, asset)
         )""")
+        
+        # Migrazione: aggiungi created_at se non esiste
+        try:
+            conn.execute("SELECT created_at FROM subscriptions LIMIT 1")
+        except sqlite3.OperationalError:
+            logger.info("Adding created_at column to existing subscriptions table")
+            conn.execute("ALTER TABLE subscriptions ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
         
         # Tabella notifiche inviate (evita spam)
         conn.execute("""
